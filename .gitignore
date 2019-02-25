@@ -4,3 +4,6 @@ read_cacm.py
 Untitled.ipynb
 *.pickle
 output*
+.idea
+__pycache__
+for_testing.py
