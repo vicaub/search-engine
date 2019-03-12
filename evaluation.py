@@ -175,9 +175,9 @@ def plot_precision_recall_curve(pred: np.ndarray, true):
 
     plt.figure()
     plt.plot(x, y)
-    plt.xlabel('Precision')
-    plt.ylabel('Recall')
-    plt.title('Precision-recall curve')
+    plt.xlabel('Recall')
+    plt.ylabel('Precision')
+    plt.title('Recall/precision curve')
 
 
 if __name__ == '__main__':
